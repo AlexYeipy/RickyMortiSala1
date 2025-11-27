@@ -52,7 +52,6 @@ void sendInitialMoveMessage(const Player &player,
         int y;
     };
 
-    // Posiciones para lado IZQUIERDO (valores negativos en X)
     vector<Posicion> posiciones = {
         {-50, 0},    // Portero
         {-35, -20},  // Defensa izquierda
