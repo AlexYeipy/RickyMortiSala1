@@ -31,7 +31,7 @@ Implementación de un cliente para RoboCup Soccer Simulation que permite control
 - Comunicación estable con el servidor
 - Reactividad a eventos del juego
 
-### 📝 Próximos Pasos
+### Próximos Pasos
 - Implementar seguimiento del balón
 - Añadir comportamientos tácticos
 - Mejorar la toma de decisiones
