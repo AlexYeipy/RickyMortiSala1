@@ -3,7 +3,7 @@
 ## Miembros del Grupo
 
 - **Alejandro Gómez Paz**
-- **André Picazo Mesa** 
+- **Andrés Picazo Mesa** 
 - **Omar Daniel Olaya Steevens**
 - **Álvaro Rangel Belmonte**
 
