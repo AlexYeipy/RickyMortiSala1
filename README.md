@@ -39,4 +39,4 @@ Implementación de un cliente para RoboCup Soccer Simulation que permite control
 
 ---
 
-*Proyecto desarrollado como parte de la formación en Oesia Group*
+*Proyecto desarrollado como parte de la formación en Oesia Group por parte de Ibertech*
