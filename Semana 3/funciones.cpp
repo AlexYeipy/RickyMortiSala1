@@ -84,8 +84,6 @@ vector<string> separate_string_separator(string &s, string separator)
 
 /**
  * Separa un string en substrings basándose en paréntesis anidados
- * Ejemplo: "((hola) (soy) (dani)) (que tal) (estas)" -> {"(hola) (soy) (dani)", "que tal", "estas"}
- *
  * @param s String original con estructura de paréntesis
  * @return Vector de strings separados por niveles de paréntesis
  */
