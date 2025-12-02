@@ -26,4 +26,16 @@ struct Player
     double y;                // Coordenada Y de la posición del jugador
 };
 
+/**
+* Estructura que representa la pelota
+* Almacena información de la posición y la velocidad
+*/
+struct Ball
+{
+    std::string x;    // Coordenada X de la posición de la pelota
+    std::string y;    // Coordenada Y de la posición de la pelota
+    std::string vx;   // Componente X de la velocidad de la pelota
+    std::string xy;   // Componente Y de la velocidad de la pelota
+};
+
 #endif // ESTRUCTURAS_H
