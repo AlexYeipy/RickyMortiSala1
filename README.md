@@ -39,4 +39,24 @@ Implementación de un cliente para RoboCup Soccer Simulation que permite control
 
 ---
 
+## Semana 3: Comportamiento "Patio de colegio" y chutar el balón
+
+### Video Explicativo
+[Enlace al video de YouTube explicando el proyecto RoboCup]([https://youtu.be/j0YXX2WSgk8](https://www.youtube.com/watch?v=y3qGEccVCtk))
+
+### Descripción del Proyecto
+Esta semana hemos conseguido que los jugadors puedan perseguir el balón todos juntos y que, si se encuentran cerca del balón, puedan llegar a chutar. Los jugadores perciben automáticamente el balón, aunque todavía no pueden detectar jugadores que tienen próximos a ellos.
+
+### Resultados Obtenidos
+- Los jugadores persiguen la pelota de forma simultánea
+- Movimiento coordinado hacia el balón
+- Capacidad de chutar el balón al estar cerca
+- Mayor intercción y realismo en el juego
+
+### Próximos Pasos
+- Percibir jugadores próximos y evitar colisiones
+- Introducir roles y posiciones definidas
+- Añadir más inteligencia táctica
+- Ajustar la toma de decisiones
+
 *Proyecto desarrollado como parte de la formación en Oesia Group por parte de Ibertech*
