@@ -59,4 +59,6 @@ Esta semana hemos conseguido que los jugadors puedan perseguir el balón todos j
 - Añadir más inteligencia táctica
 - Ajustar la toma de decisiones
 
+---
+
 *Proyecto desarrollado como parte de la formación en Oesia Group por parte de Ibertech*
