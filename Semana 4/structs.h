@@ -133,38 +133,5 @@ struct Field
     float flag_goal_right_bottom_distance;
 };
 
-struct Boundaries
-{
-    // Goal side boundaries
-    vector<double> left_top;
-    vector<double> left_bot;
-    vector<double> right_top;
-    vector<double> right_bot;
-
-    // Field boundaries
-    vector<double> top_left_50;
-    vector<double> top_left_40;
-    vector<double> top_left_30;
-    vector<double> top_left_20;
-    vector<double> top_left_10;
-    vector<double> top_0;
-    vector<double> top_right_10;
-    vector<double> top_right_20;
-    vector<double> top_right_30;
-    vector<double> top_right_40;
-    vector<double> top_right_50;
-    vector<double> bot_left_50;
-    vector<double> bot_left_40;
-    vector<double> bot_left_30;
-    vector<double> bot_left_20;
-    vector<double> bot_left_10;
-    vector<double> bot_0;
-    vector<double> bot_right_10;
-    vector<double> bot_right_20;
-    vector<double> bot_right_30;
-    vector<double> bot_right_40;
-    vector<double> bot_right_50;
-};
-
-
 #endif // ESTRUCTURAS_H
+
