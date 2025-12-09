@@ -1,4 +1,4 @@
-# Alanomal — Refactor Semana 3
+# Alanomal — Refactor Semana 4
 
 Este repositorio contiene una refactorización mínima del código de la Semana 3 para acercarlo a la organización típica de proyectos tipo wrighteaglebase: carpetas `include/`, `src/`, `bin/` y `Makefile`.
 
