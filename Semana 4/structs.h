@@ -75,6 +75,15 @@ struct JugadoresAlrededor
     float distance;
 };
 
+/*
+*   Estructura que representa la información de la portería respecto al jugador
+*/
+struct GoalInfo {
+    double dist;
+    double angle;
+};
+
 #endif // ESTRUCTURAS_H
+
 
 
