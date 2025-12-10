@@ -83,21 +83,6 @@ struct GoalInfo {
     double angle;
 };
 
-/**
- * Estructura que representa un jugador visto en el campo
- * Puede ser compañero o rival
- */
-struct PlayerSeen {
-    string team;        // Nombre del equipo (puede ser el nuestro o el rival)
-    int unum;           // Número del jugador
-    double dist;        // Distancia al jugador
-    double angle;       // Ángulo relativo al jugador
-    double x;           // Coordenada X (si se calcula)
-    double y;           // Coordenada Y (si se calcula)
-};
-
 #endif // ESTRUCTURAS_H
-
-
 
 
