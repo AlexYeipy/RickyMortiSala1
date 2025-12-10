@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <regex>
+#include <optional>
 #include <stdexcept>
 #include <cmath>
 #include <thread>
@@ -212,4 +214,5 @@ optional<GoalInfo> parseGoalOpponent(const std::string& seeMsg, const std::strin
 
     return std::nullopt;  // Por si no se ve la porteria
 }
+
 
