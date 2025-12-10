@@ -215,4 +215,32 @@ optional<GoalInfo> parseGoalOpponent(const std::string& seeMsg, const std::strin
     return std::nullopt;  // Por si no se ve la porteria
 }
 
+/**
+ * Parsea un string que representa un jugador en el mensaje "see"
+ * Formato: ( (player <team> <unum>) <dist> <angle> ... )
+ *
+ * @param playerStr String con la información del jugador
+ * @return PlayerSeen con la información parseada
+ */
+optional<PlayerSeen> parsePlayer(const string& playerStr) {
+    // Buscamos el patrón: (player ...)
+    regex playerRegex("\\(\\s*player\\s+([^\\s]+)\\s+(\\d+)\\s*\\)\\s+([-+]?[0-9]*\\.?[0-9]+)\\s+([-+]?[0-9]*\\.?[0-9]+)");
+    smatch match;
 
+    if (regex_search(playerStr, match, playerRegex)) {
+        if (match.size() >= 5) {
+            try {
+                PlayerSeen p;
+                p.team = match[1].str();
+                p.unum = stoi(match[2].str());
+                p.dist = stod(match[3].str());
+                p.angle = stod(match[4].str());
+                return p;
+            } catch (const exception& e) {
+                cerr << "Error al parsear jugador: " << e.what() << endl;
+            }
+        }
+    }
+
+    return nullopt;
+}
