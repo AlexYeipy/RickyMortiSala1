@@ -331,7 +331,7 @@ int main(int argc, char *argv[])
             //       LÓGICA DE JUGADORES NORMALES
             // ==================================================
             double distancia_retorno = 25.0;   // si el balón está más lejos que esto → volver a posición base
-            bool es_delantero = (player.unum == 7 || player.unum == 9 || player.unum == 11);
+            bool es_delantero = (player.unum == 9 || player.unum == 10);
             if (player.see_ball)
             {
                 vector<string> ball_coords = separate_string_separator(see_message[ball_pos], " ");
