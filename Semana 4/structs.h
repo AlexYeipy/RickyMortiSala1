@@ -83,6 +83,13 @@ struct GoalInfo {
     double angle;
 };
 
-#endif // ESTRUCTURAS_H
 
+/*
+ * Estructura que representa el estado del partido
+ */
+struct EstadoPartido {
+    bool enJuego;
+};
+
+#endif // ESTRUCTURAS_H
 
