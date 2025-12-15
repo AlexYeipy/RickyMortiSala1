@@ -60,5 +60,22 @@ Esta semana hemos conseguido que los jugadors puedan perseguir el balón todos j
 - Ajustar la toma de decisiones
 
 ---
+## Semana 4: Partido 11 vs 11
 
+### Video Explicativo 
+[Enlace al video de YouTube explicando el proyecto RoboCup] https://youtu.be/q0hys1AjDMo
+
+### Descripcion des proyecto 
+Enesta semana conseguimos que nuestros jugadores tuvieran decision en el campo , y mantuvieran sus zonas asiganadas , asi tambine poder chutar a porteria y la dinamica de un partido 11 Vs 11
+
+## Resultados Optenidos
+- Los jugadores van por el bolon segun la zona que esten.
+- -Mantiene posicion segun roles predeterminados
+- -conduccion de balon y ataque
+
+### Proximos Pasos
+- Situacion real de juego
+- Saque de banda, faltas, corners
+- -definir ataques concretos
+- 
 *Proyecto desarrollado como parte de la formación en Oesia Group por parte de Ibertech*
