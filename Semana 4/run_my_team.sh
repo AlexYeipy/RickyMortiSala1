@@ -25,13 +25,10 @@ for i in {1..11}; do
     # Muestra información sobre qué jugador se está iniciando
     echo "Jugador $i -> puerto $PORT"
     
-    if [ "$i" -eq 1 ]; then
-        # Jugador 1: lo lanzamos como portero
-        ./player "$TEAM_NAME" "$PORT" "goalie" &
-    else
-        # Resto de jugadores normales
-        ./player "$TEAM_NAME" "$PORT" &
-    fi
+    # Ejecuta el jugador en segundo plano con los parámetros:
+    # - Nombre del equipo
+    # - Puerto único para este jugador
+    ./player "$TEAM_NAME" "$PORT" &
     
     # Pequeña pausa para evitar congestión al iniciar múltiples procesos
     sleep 0.3
